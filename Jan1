@@ -1,0 +1,84 @@
+Discrete Math: Mathematics dealing iwht discrete objects
+  -Seperated from each other (not continuous) like Integers, Rational Numbers
+      **Not Real Numbers
+
+Topics:
+  -Logic - Boolean Algebra
+  -Proofs by Mathematical Induction
+  -Sets / Sequences
+  -Relations and Functions
+
+Goals:
+  -Understand and construct mathematical arguments
+  -Develop methods of proofs
+
+-------------------------------------------------------------------------------------------
+
+Chapter 2: The Logic of Compound Statements
+
+Integers - Z - -2, -1, 0, 1, 2 - 
+Natural Numbers: Positive Integers (Not including zero) : 1, 2, 3, ... : lN : Z+
+Whole Numbers: W: 0, 1, 2, 3...
+Rational Numbers: Q : -2.5, -1, 0, 2.2, 10.3, ... : a/b where a, b are integers
+Irrational Numbers: Any real number that are not rational numbers
+Real Numbers: R: Rational and Irrational Numbers
+Complex Numbers: C: a + bi, ab are real numbers
+
+E : Element       2 E Z : 2 is an element of Integers
+E/: Not element   1/3 E/ Z: 1/3 is not an element of Integers
+_C: Comparison between sets   Z C_ Q
+:.: Therefore
+
+Real Number System: composed of Integers, Rational and Irrational Systems
+  Two major operations are addition and multiplication
+
+1) Both operations are communicative and associative
+  Communicative: 2 + 3 = 3 + 2
+  Associative: (1 + 2) + 3 = 1 + (2 + 3)
+
+2) There is an additive Identity (0) and a multiplicative identity (1)
+3) Additive Inverse (a & -a) and Multiplicative Inverse (a & 1/a)
+4) The operation multiplication distributes over addition ( a * (b + c) = (a * b) + (a * c)
+  Not the other way around
+    In boolean algebra, it works the other way around
+
+NOW WRITING THE BLANKS ONLY
+
+__ or __ : propositions or statements
+a __ is a : statement
+1) no, no definition of a large number
+2) yes, but a false statement
+3) yes
+4) no
+5) no, because this is a question
+
+
+but = and
+
+H: It is hot
+D: It is dry
+
+H ^ ~D
+
+~:  negation, not
+^:  wconjunction, and
+v:  inclusivedisjunction, or
+to: exclusive disjunction, exclusive or
+
+neither p nor q = not p and not q = ~p ^ ~q = ~(pvq)
+
+~Cv~S
+~S^~C^D
+2 <= x <= 5
+
+x => 2 and x <= 5
+(x >= a) and (x <= b)
+(x > a or x = a) and (x < 5 or x = 5)
+(P +O Q) ^ (R +O S)
+
+Negation, ~
+Conjunction, ^
+Inclusive Disjunction, v
+Exclusive Disjunction, +O
+
+FROM NOW ON I AM GOING TO PRINT OUT THE LECTURE NOTES BEFORE CLASS, I THINK I CAN SMOOTHLY FIT 3 PER PAGE
