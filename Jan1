@@ -82,3 +82,129 @@ Inclusive Disjunction, v
 Exclusive Disjunction, +O
 
 FROM NOW ON I AM GOING TO PRINT OUT THE LECTURE NOTES BEFORE CLASS, I THINK I CAN SMOOTHLY FIT 3 PER PAGE
+
+Didnt know word to pdf... rip day 2 of typing in the fill in the blanks
+
+
+difference between v and +o
+
+(p or q) or p and q = pvq v p^q
+
+Ex: Cream or Sugar -> V
+    To ride a coaster, you must be 12 or 4ft+ -> V
+
+    Pass or Fail -> +o
+    Tea or Coffee -> +o
+    Open or Close -> +o
+    x >= 5 or x < 5 -> +o
+
+well-defined truth values
+the truth table
+
+Ex: P: John is a sophomore  Q: John is a CS Major
+
+p q ~p p^q pvq p+oq
+t t f  t   t   f
+t f f  f   t   t
+f t t  f   t   t
+f f t  f   f   f
+ 
+~p is true when p is false
+p^q is true when both are true
+pvq is true when at least one is true
+p+oq is true when only one is true
+
+Logical Equivalence
+
+two form are logically equivalent is and only if
+we note than p=_ q (three lines vertically)
+
+p=_q is the same as
+
+p q
+t t
+t t
+f f
+t t
+
+p v p =_ p
+
+p ~p  ~(~p)
+t f   t
+f t   f
+
+~~p =_ p
+
+p q ~p ~q ~pv~q pvq ~(pvq) 
+t t  f  f  f    t   f              
+t f  f  t  t    t   f              
+f t  t  f  t    t   f            
+f f  t  t  t    f   t               
+
+not logically equivalent bc third to last and last column, 2nd and 3rd row
+
+We showed that ~(pvq) +-/ ~pv~q
+-----------------------------
+Cream or Suger : CvS
+~(CvS) =_ ~C^~S
+
+Cream and Sugar : C^S
+~(C^S) =_ ~Cv~S
+
+~V =_ ^
+~^ =_ V
+-------------------------------
+the negation of an ^ to the V
+the negation of an V to the ^
+
+1) ~pv~q
+2) ~p^~q
+3) 
+
+~( x >= -pi ^ x < 2e )
+ =_ ~(x >= pi) v ~ (x < 2e)
+  =_ x < -pi v x <= 2e
+
+
+a tautology is a statement form that is always true           EX: john is smart or he is not smart
+a contradiction is a statement form that is always false       EX: john is smart and he is not smart
+
+EX: T : P v ~P
+    C : P ^ ~P
+
+p ~p  pv~p  p^~p
+t  f  t     f        
+f  t  t     f        
+
+p T F P^T P^F
+t t f t   f        
+f t f f   f          
+
+p =_ p^T
+p^F =_ F
+
+domination vs identity laws
+ask to take picture of after class^^
+
+                       Real NO        Logic
+operations            +, *            v, ^
+Identity              0, 1            F, T
+Distributive Laws     a*(b+c)=a*b+a*c p^(qvr)=p^q v p^r
+
+other laws
+
+demorgans ~pvq =_ ~p^~q AND ~(p^q) =_ ~pv ~q
+idempotent  pVp =_ p^p
+domination  pvT =_ T  p^F =_ F
+Absorption  
+Double Negative ~(~p) =_ p
+
+Absorbtion laws:
+
+pv(p^q) =_ p
+p^(pvq) =_ p
+
+same item had to be in the parenthesis (p)
+opposite operators inside and outside the parenthesis
+q can be any value, it will always go to p
+
