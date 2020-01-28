@@ -208,3 +208,50 @@ same item had to be in the parenthesis (p)
 opposite operators inside and outside the parenthesis
 q can be any value, it will always go to p
 
+--------------------------------------------------
+Jan 28
+
+Tautology are statements that are alwasys true (T)
+Contradiction are statements that are always false (F)
+
+Pv~P = T
+P^~P = F
+Negation Law
+
+T V * = T
+F ^ * = F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
